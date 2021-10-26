@@ -1,0 +1,21 @@
+main{
+    border: 1px solid blue;
+}
+.categorias{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+/*{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}*/
+[href="new"]{
+    text-align: center;
+    color: white;
+    background-color: rgb(83, 123, 241);
+    align-self: center;
+    padding: 15px 45px;
+    border-radius: 3px;

@@ -1,8 +1,18 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url(@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Roboto:wght@100&display=swap');
+</style>);
 
-html, body, main, header,footer, h1 {
+* {
+	padding: 0;
 	margin: 0;
-	padding: 0;}
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
 
+}
 body{
-    border: 1px solid red;
+	font-family: "montserrat", sans-serif;
+	border: 1px solid red;
 }
