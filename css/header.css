@@ -4,89 +4,63 @@ header{
     width: 100%;
     height: 600px;
     background-image: url(/assets/banner.jpg);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
     border: 1px solod red;
 }
-nav{
-    height: 100px;
-    width: 100%;
+header nav{
+    height: 90px;
+    /* background: #111111; */
     color: white;
     display: flex;
     justify-content:space-between;
+}
+.icono{
+    display: none;
+}
+
+.enlaces{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: space-around;
     align-items: center;
-    
-
-}
-h1{
-    text-align: center;
- 
 }
 
-.logo{
-    width: 140px;
-    margin-left: 20px;
-  
+.enlaces a{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding: 4px 0;
+    transition: 0.7s ease-out;
+    color: white;
+    text-decoration: none;
 }
-
-.bar-btn{
-    font-size: 25px;
-    color: white
-    margir-right: 20px;
-    cursor: pointer;
+.enlace a:hover, .active{
+    border-top: 1px solid rgb(0, 132, 255);
+    border-bottom: 1px solid rgb(0, 132, 255);
 }
-
-.nav-menu{
-    position:fixed;
-    width: 100%;
-    height: 0vh;
-    top: 100px;
-    /* background: rgba(0,0,0,.95); */
-    text-align: center;
-    transition: all .5s;
-    
+nav .logo{
+    height: 140%;
+    /* background: #fff; */
+    margin-left: 30px;
 }
-.nav-menu li{
-    display: none;
-    line-height: 2px;
-    margin: 25px 0;
-    transition: all .5s;
+nav .logo img{
+    object-fit: cover;
+    height: inherit;
 }
-.nav-menu li a {
-    color: red
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-.nav-menu li a.active, .nav-menu li a:hover{
-    color: rgb(248,8,8)
-    transition: .3s
-}
-#check {
-    display: none;
-}
-#check:checked ~ .nav-menu{
-    height: 100vh;
-}
-#check:checked ~ .nav-menu li{
-    display: block;
-}
-
-.banner-text{
-    
-    margin-top: 100px;
+header .titulos{
     text-align: center;
     color: white;
+    margin-top: 90px;
+}
 
-}
-.banner-text h1{
-    font-size: 50px;
-    margin-bottom: 30px;
-   
-}
-.banner-text h2{
-    font-size: 32px;
+header .titulos h1{
+    font-size: 60px;
     font-weight: 600;
+    margin-bottom: 10px;
+}
+header .titulos h2{
+    font-size: 40px;
+    margin-top: -15px;
 }
