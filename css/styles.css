@@ -1,8 +1,7 @@
 @import url(./header.css);
 @import url(./main.css);
 @import url(./footer.css);
-@import url(@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Roboto:wght@100&display=swap');
-</style>);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Roboto:wght@100&display=swap');
 
 *{
 	padding: 0;
