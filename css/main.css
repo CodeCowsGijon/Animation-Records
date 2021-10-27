@@ -1,8 +1,10 @@
-/* main{
-    border: 1px solid blue;
+#titulo_categoria h2{
+    padding: 50px;
 }
+
+
 section.categorias img{
-    width: 200px;
+    width: 120px;
     display: block
     margin: 0 auto;
 }
@@ -17,10 +19,10 @@ section.categorias img{
  [href="new"]{
     text-align: center;
     width: 250px;
-    height: 20px;
+    height: 50px;
     color: white;
     background-color: rgb(83, 123, 241);
-    display: flex;
-    padding: 15px 45px;
-    border-radius: 3px;
-} */
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+} 
