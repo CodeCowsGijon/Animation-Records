@@ -12,17 +12,11 @@ section.categorias img{
 .categorias{
     display: flex;
     justify-content: space-evenly;
-    padding: 5px;
+    padding: 10px;
     flex-wrap: wrap;
 }
 
- [href="new"]{
-    text-align: center;
-    width: 250px;
-    height: 50px;
+#miBoton{
+    background: #0C99FF;
     color: white;
-    background-color: rgb(83, 123, 241);
-    display: block;
-    margin: auto;
-    border-radius: 4px;
-} 
+}
