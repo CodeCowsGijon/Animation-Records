@@ -4,6 +4,14 @@ header{
     background-color: #0C99FF;
     text-align: center;
 }
+.carrito{
+    width: 29px;
+    height: 29px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
 nav{
     height: 100px;
     width: 100%;
@@ -12,6 +20,7 @@ nav{
     align-items: center;
     color: white;
     padding: 0px 0px 15px 15px;
+    border: 1px solid red;
     
 
 } 
@@ -23,17 +32,12 @@ nav{
 
 }
 
-/* .carrito{
-    width: 40px;
-    margin-left: 20px;
-} */
-
-
 .bar-btn{
     font-size: 25px;
     color: white;
     margin-right: 20px;
     cursor: pointer;
+    
 }
 
  .nav-menu{
@@ -42,7 +46,8 @@ nav{
     height: 0 vh;
     top:100px;
     text-align: center;
-    transition: all .5s; 
+    transition: all .5s;
+     
 } 
 
 .nav-menu li{
@@ -87,6 +92,14 @@ h2{
 }
 
 img#img_banner{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1400px;
+    padding: 13px;
+}
+
+img#slideshow{
     display: block;
     margin: auto;
     width: 100%;

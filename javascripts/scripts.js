@@ -2,12 +2,13 @@
 
 let miInput = document.getElementById("miInput")
 
-miInput.addEventListener("input", function(event){
+miInput.addEventListener("email", function(event){
     console.log(event);
 
-miInput.addEventListener("input")
+
 });
 
-function saludar(){
-    alert("Hola, como estas?");
-}
+/* function capturarDatos(){
+    var correo=document.getElementById("miInput").value;
+    console.log(correo);
+} */

@@ -2,6 +2,7 @@
     padding: 50px;
 } */
 
+
 .categoria1{
     display: flex;
     padding: 20px;
@@ -10,8 +11,16 @@
     font-weight: bolder;
     color: black;
     justify-content: center;
-    
-    
+   
+}
+.producto1{
+    display: flex;
+    padding: 20px;
+    font-size: 24px;
+    font-family: montserrat; sans-serif;
+    font-weight: bolder;
+    color: black;
+    justify-content: center;
    
 }
 
@@ -22,7 +31,23 @@ section.categorias img{
    
 }
 
+section.productos img{
+    width: 80px;
+    display: block
+    /* margin: auto; */
+   
+}
 .categorias{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+    color: blue;
+   text-align: center;
+  
+}
+
+.productos{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
@@ -34,18 +59,33 @@ section.categorias img{
 
 
 
-#miBoton{
+#boton{
     background: #0C99FF;
     color: white;
-    width: 210px;
+    width: 200px;
     height: 20px;
     border: 0;
+    
     
 }
 
 #button{
     display: flex;
     justify-content: center;
-    padding: 30PX;
+    padding: 20PX;
     
 }
+
+#politicas{
+    color:blue;
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+
+}
+
+#back{
+    color: blue
+    
+}
+
