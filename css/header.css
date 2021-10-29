@@ -4,14 +4,14 @@ header{
     background-color: #0C99FF;
     text-align: center;
 }
+
 .carrito{
     width: 29px;
     height: 29px;
     display: flex;
     justify-content: space-evenly;
-    
-    
 }
+
 nav{
     height: 100px;
     width: 100%;
@@ -21,15 +21,11 @@ nav{
     color: white;
     padding: 0px 0px 15px 15px;
     
-    
-
 } 
 .logo{
     width: 100px;
     margin-left: -20px;
    
-    
-
 }
 
 .bar-btn{
