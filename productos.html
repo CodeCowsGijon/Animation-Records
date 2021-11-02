@@ -4,95 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css_home/styles.css">
+    
     <title>Proyecto2</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-            <a href="">
-                <img src="./assets/logo.png" alt="" class="logo">
-            </a>
-            </div>
-            <div class="titulos">
-                <h1>ANIMATION</h1>
-                <h2>Records</h2>
-            </div>
-            <div>
-                <img src="./assets/carrito.png" alt="" class="carrito">
-            </div>
-            <input type="checkbox" id="check">
-            <label for="check" class="bar-btn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <ul class="nav-menu">
-                <li><a href="#" class="active"></a>Home</a></li>
-                <li><a href="#"></a>Productos</a></li>
-                <li><a href="#"></a>Carrito</a></li>
-        </nav>
-      
+    <header class="header">
+        <div class="container">
+            <a href="home.html"><img src="./assets/logo.png" alt="" class="logo"></a>
+            <div class="titulos"><h1>ANIMATION</h1><h2>Records</h2></div>
+            <div class="cart"><img src="./assets/carrito.png" alt="" class="carrito"></div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn"><i class="fas fa-bars"></i></label>
+                    <ul class="nav-menu">
+                        <li><a href="home.html" class="active"></a>Home</a></li>
+                        <li><a href="productos.html"></a>Productos</a></li>
+                        <li><a href="#"></a>Carrito</a></li>
+                    </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        
-        <div id="slides">
-            <img src="./assets/slideshow.png" id="slideshow">
+        <div class="slider">
+            <ul clas="">
+                <li id="slide1">
+                    <img src="./assets/slideshow1.jpg"></li>
+                <li id="slide2">
+                    <img src="./assets/slideshow2.jpg"></li>
+                <li id="slide3">
+                    <img src="./assets/slideshow3.jpg">
+                </li>
+                <li id="slide4">
+                    <img src="./assets/slideshow4.jpg">
+                </li>
+            </ul>
+
         </div>
         <h3 class="producto1">PELICULAS</h3>
         <section class="productos">
             <div>
                 <img src="./assets/cat_merrie.jpg" id="cat_merrie"> 
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Merry Melody</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_looneytunes.jpg" id="cat_looneytunes">
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Looney Tunes</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_angry.jpg" id="cat_angry">
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Angry Birds</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_rabbit.jpg" id="cat_rabbit">
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Rabiit 2</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_batman.jpg" id="cat_batman">
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Batman</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_open.jpg" alt="cat_open">
-                <h6>Rumble 1.99€</h36>
+                <p class="name_product">Open Season</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_merrie.jpg" id="cat_merrie"> 
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Rumble</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_looneytunes.jpg" id="cat_looneytunes">
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Rumble</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_angry.jpg" id="cat_angry">
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Rumble</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_rabbit.jpg" id="cat_rabbit">
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Rumble</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_batman.jpg" id="cat_batman">
-                <h6>Rumble 1.99€</h6>
+                <p class="name_product">Rumble</p>
+                <p class="price_product">1.99€</p>
             </div>
             <div>
                 <img src="./assets/cat_open.jpg" alt="cat_open">
-                <h6>Rumble 1.99€</h36>
+                <p class="name_product">Rumble</p>
+                <p class="price_product">1.99€</p>
             </div>
         </section>
-        <!-- <section>
+        <section class="back">
                 <a id="back" href="home.html"><<< Back</a>
-        </section> -->  
+        </section>
         <section id="button">
             <form>
                 <input type="email" id="miInput"></input>
@@ -108,5 +122,7 @@
         <p>Los derechos reservados <a href="https://www.figma.com/file/jHO6KS7gopnGyP5Mlj32QO/Prototype-Proyecto-2?node-id=0%3A1" id="blue">CodeCows &copy; </a></p>
 
     </footer>
+    <script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script>
+    <script src="/javascripts/scripts.js"></script>
 </body>
 </html>

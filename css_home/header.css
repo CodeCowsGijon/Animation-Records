@@ -1,0 +1,121 @@
+.header{
+    width: 100%;
+    height: 160px;
+    /* color: white */
+    background-color: #0C99FF;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.carrito{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+
+
+}
+
+nav{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 0px 0px 15px 15px;
+    
+    
+} 
+.logo{
+    width: 100px;
+    margin-left: -20px;
+   
+}
+
+.bar-btn{
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+ .nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0 vh;
+    top:100px;
+    text-align: center;
+    transition: all .5s;
+    
+     
+} 
+
+.nav-menu li{
+    display: none;
+    line-height: 10px;
+    margin: 50px 0;
+    transition: all .5s;
+    
+}
+
+/* .nav-menu li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{    
+    color:red;
+    transition: .3s;
+} */
+
+#check{
+    display: none;
+}
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+}
+
+img#img_banner{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1400px;
+    padding: 13px;
+}
+
+/* img#slideshow{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1400px;
+    padding: 13px;
+} */

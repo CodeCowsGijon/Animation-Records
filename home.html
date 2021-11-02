@@ -4,38 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css_home/styles.css">
     
     <title>Proyecto2</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="home.html">
-                    <img src="./assets/logo.png" alt="" class="logo">
-                </a>
-            </div>
-            <div class="titulos">
-                <h1>ANIMATION</h1>
-                <h2>Records</h2>
-            </div>
-            <img src="./assets/carrito.png" alt="" class="carrito">
-            <input type="checkbox" id="check">
-            <label for="check" class="bar-btn">
-                <i class="fas fa-bars"></i>
-                
-            </label>
-            <ul class="nav-menu">
-                <li><a href="home.html" class="active"></a>Home</a></li>
-                <li><a href="productos.html"></a>Productos</a></li>
-                <li><a href="#"></a>Carrito</a></li>
-        </nav>
-      
+    <header class="header">
+        <div class="container">
+            <a href="home.html"><img src="./assets/logo.png" alt="" class="logo"></a>
+            <div class="titulos"><h1>ANIMATION</h1><h2>Records</h2></div>
+            <div class="cart"><img src="./assets/carrito.png" alt="" class="carrito"></div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn"><i class="fas fa-bars"></i></label>
+                    <ul class="nav-menu">
+                        <li><a href="home.html" class="active"></a>Home</a></li>
+                        <li><a href="productos.html"></a>Productos</a></li>
+                        <li><a href="#"></a>Carrito</a></li>
+                    </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <div id="banner">
-            <img src="./assets/banner.jpg" id="img_banner">
+            <video src="./assets/banner.mp4" type="video/mp4" controls autoplay muted></video>
         </div>
         <h3 class="categoria1">CATEGORIAS</h3>
         <section class="categorias">
@@ -71,7 +63,7 @@
             </form>
         </section>
         <section>
-            <a id="politicas" href="https://politicadeprivacidadplantilla.com/" target="_blank">Polícitas de Privacidad</a>
+            <a id="politicas" href="https://politicadeprivacidadplantilla.com/" target="_blank">Políticas de Privacidad</a>
         </section>
     </main>
     <footer>

@@ -1,0 +1,96 @@
+.slider{
+    margin: auto;
+    width: 85%;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 20px 0px;
+    
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction:alternate ;
+
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+}
+
+
+.slider img{
+    width: 100%;
+}
+
+ul, li{
+   /*  margin: 0;
+    padding: 0; */
+    list-style: none;
+    width: 100%;
+} 
+
+#back{
+    display: flex;
+   justify-content: flex-end;
+   padding: 30px 30px 0px;
+
+   
+
+}
+
+
+/* ul.slider{
+
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+
+
+
+.productos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 0px 15px;
+    flex-wrap: wrap;
+    color: blue;
+   text-align: center;
+  
+}
+
+section.productos img{
+    width: 280px;
+    display: block
+   
+}
+
+.producto1{
+    display: flex;
+    padding: 20px;
+    font-size: 24px;
+    font-family: montserrat;
+    font-weight: bolder;
+    color: black;
+    justify-content: center;
+   
+}

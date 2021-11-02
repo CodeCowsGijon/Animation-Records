@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+article{
+    width:80%;
+    margin: 0 auto;
+    border: 1px solid red
+}
+
+img.detalles{
+    width: 450px;
+    height: 600px;
+   
+}
+
+img.like{
+    width: 30px;
+    height: 30px;
+}
+
+.container3{
+    display: flex;
+    padding: 20px;
+   /*  flex-wrap: wrap; */
+
+}

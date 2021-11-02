@@ -1,0 +1,72 @@
+
+.categoria1{
+    display: flex;
+    padding: 20px;
+    font-size: 24px;
+    font-family: montserrat;
+    font-weight: bolder;
+    color: black;
+    justify-content: center;
+   
+}
+
+
+section.categorias img{
+    width: 150px;
+    display: block
+   
+}
+
+
+.categorias{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 0px 15px;
+    flex-wrap: wrap;
+    color: blue;
+   text-align: center;
+  
+}
+
+video{
+    width: 100%;
+    padding: 20px;
+}
+
+
+#boton{
+    background: #0C99FF;
+    color: white;
+    width: 200px;
+    height: 20px;
+    border: 0;
+    
+    
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    padding: 20PX;
+    
+}
+
+#politicas{
+    color:blue;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+
+}
+
+#back{
+    color: blue
+    
+}
+h6{
+    font-size: 8px;
+}
+ p{
+     font-size: 10px;
+     ;
+ }
