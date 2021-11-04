@@ -1,14 +1,9 @@
 
 
-let miInput = document.getElementById("miInput")
+function mostrarId1(){
+    let id1= document.getElementById("id1").value;
+    console.log(id1)
 
-miInput.addEventListener("email", function(event){
-    console.log(event);
 
-
-});
-
-/* function capturarDatos(){
-    var correo=document.getElementById("miInput").value;
-    console.log(correo);
-} */
+}
+    

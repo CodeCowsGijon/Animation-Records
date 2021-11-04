@@ -59,8 +59,9 @@ video{
 
 }
 
-#back{
-    color: blue
+.back #back{
+    color: blue;
+    padding: 20px;
     
 }
 h6{

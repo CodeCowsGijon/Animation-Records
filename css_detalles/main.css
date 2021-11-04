@@ -5,56 +5,92 @@
 }
 
 
-article.foto_detalles{
-    width:80%;
+.foto_detalles{
+    width:70%;
     margin: 0 auto;
+    padding: 30px 0px 30px 0px;
     
 }
 
 img.detalles{
-    width: 450px;
-    height: 600px;
-   
+    width: 55%;
+    margin: 0;
+    /* padding: 0px 20px 10px 100px; */
+    display: flex;
+ 
+}
+
+
+.sinopsis{
+   /*  padding: 20px 20px 20px 20px; */
+    width: 85%;
+    font-size: 15px;
+    border-color: black;
+    display: flex;
+    margin: auto;
+    text-align: justify;
+    align-items: center;
+    
+}
+
+.container5{
+    display: flex;
+   /*  align-items: center;
+    justify-items: center;
+    display: flex;*/
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    font-size: 10px;
+    width: 30%;
+    padding-top: 10px;
 }
 
 img.like{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+    
 }
 
 .container3{
+    width: 100%;
     display: flex;
-    padding: 20px;
-    ;
-   /*  flex-wrap: wrap; */
+    /* padding: 10px; */
+    margin: auto;
+    /* flex-wrap: wrap; */
+  
+    
+    
 
 }
 
 .img_destacados{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap; 
     margin: auto;
-    padding: 5px 20px 5px 20px;
+    justify-content: center;
+    /* padding: 5px 20px 5px 20px; */
     
     
 
 }
 
 .destacados{
+    flex-wrap: wrap; 
     display: flex;
-    
-    
-  /*   margin: auto; */
+    width: 100%;
+    /* margin: 0; */
+    /* justify-content: space-evenly; */
+    padding: 35px;
     
 
 }
 
 
 .img_destacados img{
-    width: 30%;
-    display: flex;
-    
+    width: 40%;
+  /*   display: flex; */
+    position: relative;
     border: 3px solid orangered;
 }
 
@@ -66,4 +102,33 @@ img.like{
 .text_gorro, .text_mascarilla, .text_llavero, .text_conejo{
     font-size: 15px;
     color: blue;
+}
+
+.comprar{
+    background: #0C99FF;
+    color: white;
+    /* width: 100px; */
+    height: 40px;
+    border-radius: 4px;
+    padding: 0px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.detalles_de_compra{
+    align-items: center;
+    padding: 100px;
+
+    /* display: inline-block;
+    margin: 0; */
+}
+button #boton{
+    padding: 15px;
+
+}
+
+.img_destacados div p{
+    position: absolute;
+
+    
 }
