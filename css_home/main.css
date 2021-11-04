@@ -12,8 +12,9 @@
 
 
 section.categorias img{
-    width: 150px;
-    display: block
+    width: 250px;
+    display: block;
+    padding: 10px;
    
 }
 
@@ -24,14 +25,16 @@ section.categorias img{
     padding: 20px 0px 0px 15px;
     flex-wrap: wrap;
     color: blue;
-   text-align: center;
+    text-align: center;
   
 }
 
 video{
     width: 100%;
     padding: 20px;
-}
+    margin: auto;
+    
+} 
 
 
 #boton{
@@ -71,3 +74,11 @@ h6{
      font-size: 10px;
      ;
  }
+
+
+/*  @media (min-width: 570px){
+    
+
+ } */
+     
+ 

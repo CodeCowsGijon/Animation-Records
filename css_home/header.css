@@ -5,7 +5,7 @@
     background-color: #0C99FF;
     text-align: center;
     padding: 2rem 0;
-    border:1px solid red;
+  
 }
 
 .container{
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border:1px solid blue;
+   
 }
 
 
@@ -35,7 +35,7 @@ nav{
     align-items: center;
     color: white;
     padding: 0px 0px 15px 15px;
-    border: 1px solid blue;
+   
     
     
 } 
