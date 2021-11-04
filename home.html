@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css_home/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     
     <title>Proyecto2</title>
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container_logo">
             <a href="home.html"><img src="./assets/logo.png" alt="" class="logo"></a>
-            <div class="titulos"><h1>ANIMATION</h1><h2>Records</h2></div>
+            <div class="titulos"><h1 class="animated infinite bounce">ANIMATION</h1><h2 class="animated infinite jello">Records</h2></div>
+    
+        </div>
+        <div class="container_carrito">
             <div class="cart">
                 <img src="./assets/carrito.png" alt="" class="carrito">
             </div>
@@ -21,9 +25,9 @@
                 <label for="check" class="bar-btn"><i class="fas fa-bars"></i>
                 </label>
                     <ul class="nav-menu">
-                        <li><a href="home.html" class="active"></a>Home</a></li>
-                        <li><a href="productos.html"></a>Productos</a></li>
-                        <li><a href="#"></a>Carrito</a></li>
+                        <li><a href="home.html" class="active">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="#">Carrito</a></li>
                     </ul>
             </nav>
         </div>
@@ -73,5 +77,6 @@
     </footer>
     <script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script>
     <script src="/javascripts/scripts.js"></script>
+    <script src="js"></script>
 </body>
 </html>

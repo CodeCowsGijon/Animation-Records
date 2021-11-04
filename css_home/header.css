@@ -1,21 +1,32 @@
 .header{
     width: 100%;
-    height: 160px;
+    height: 180px;
     /* color: white */
     background-color: #0C99FF;
     text-align: center;
     padding: 2rem 0;
+    display: flex;
   
 }
 
-.container{
-    width: 90%;
+.container_logo{
+    width: 55%;
     /* max-width: 980px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
    
+   
+}
+
+.container_carrito{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
 }
 
 
@@ -23,25 +34,29 @@
     width: 30px;
     height: 30px;
     align-items: center;
+    
 
 
 }
+.cart{
+    padding: 15px;
 
+
+
+}
 nav{
     height: 50px;
     width: 50px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     color: white;
-    padding: 0px 0px 15px 15px;
-   
+    padding: 0px 60px 0px 0px;
     
-    
+     
 } 
 .logo{
     width: 100px;
-    /* margin-left: -20px; */
+    margin: 0px 0px 0px 60px;
     border: 1px;
    
 }
@@ -49,49 +64,52 @@ nav{
 .bar-btn{
     font-size: 25px;
     color: white;
-    margin-right: 20px;
+    margin-right: -50px;
     cursor: pointer;
-    
-    
+   
 }
 
 .nav-menu{
-    position: fixed;
+    position:relative;
     width: 40%;
     height: 40px;
-   /*  height: 0 vh; */
+    height: 18vh;
     top:100px;
     text-align: center;
     transition: all .5s;
-    /* background:#0C99FF; */
-   
     
-     
+
 } 
 
-.nav-menu li{
+ul .nav-menu li{
     display: none;
     line-height: 10px;
     margin: 50px 0;
     transition: all .5s;
+    color: blanchedalmond;
+    
+    
     
 }
 
-/* .nav-menu li a{
+.nav-menu li a{
     color: white;
     font-size: 16px;
     font-weight: 600;
     
+    
 }
 
-.nav-menu li a.active, .nav-menu li a:hover{    
+/* .nav-menu li a.active, .nav-menu li a:hover{    
     color:red;
     transition: .3s;
-} */
+    background: ;
+}  */
 
 #check{
     display: none;
 }
+
 #check:checked ~ .nav-menu{
     height: 100vh;
 }
