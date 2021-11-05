@@ -65,8 +65,6 @@
 }
 
 ul, li{
-   /*  margin: 0;
-    padding: 0; */
     list-style: none;
     width: 100%;
 } 
@@ -80,27 +78,10 @@ ul, li{
 
 }
 
-
-/* ul.slider{
-
-    position: relative;
-    width: 800px;
-    height: 300px;
-}
-
-ul.slider li{
-    position: absolute;
-    left: 0;
-    top: 0;
-} */
-
-
-
-
 .productos{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px 0px 0px 15px;
+    padding: 40px;
     flex-wrap: wrap;
     color: blue;
    text-align: center;
@@ -124,11 +105,11 @@ section.productos img{
    
 }
 
-/* @media (max-width: 450px){
-    section.productos img{
-        width: 280px;
-        display: block
-       
-    }
+.productos img{
+    padding: 20px;
+}
 
-} */
+.productos p{
+    font-size: 15px;
+}
+

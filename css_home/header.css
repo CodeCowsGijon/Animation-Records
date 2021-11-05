@@ -1,7 +1,6 @@
 .header{
     width: 100%;
     height: 180px;
-    /* color: white */
     background-color: #0C99FF;
     text-align: center;
     padding: 2rem 0;
@@ -11,13 +10,9 @@
 
 .container_logo{
     width: 55%;
-    /* max-width: 980px; */
-    /* margin: 0 auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-   
 }
 
 .container_carrito{
@@ -26,7 +21,6 @@
     align-items: center;
     justify-content: flex-end;
     
-    
 }
 
 
@@ -34,14 +28,10 @@
     width: 30px;
     height: 30px;
     align-items: center;
-    
-
 
 }
 .cart{
     padding: 15px;
-
-
 
 }
 nav{
@@ -51,8 +41,7 @@ nav{
     align-items: center;
     color: white;
     padding: 0px 60px 0px 0px;
-    
-     
+
 } 
 .logo{
     width: 100px;
@@ -77,8 +66,6 @@ nav{
     top:100px;
     text-align: center;
     transition: all .5s;
-    
-
 } 
 
 ul .nav-menu li{
@@ -88,23 +75,14 @@ ul .nav-menu li{
     transition: all .5s;
     color: blanchedalmond;
     
-    
-    
 }
 
 .nav-menu li a{
     color: white;
     font-size: 16px;
     font-weight: 600;
-    
-    
 }
 
-/* .nav-menu li a.active, .nav-menu li a:hover{    
-    color:red;
-    transition: .3s;
-    background: ;
-}  */
 
 #check{
     display: none;
