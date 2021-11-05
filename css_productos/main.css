@@ -90,7 +90,8 @@ ul, li{
 
 section.productos img{
     width: 280px;
-    display: block
+    display: block;
+    
    
 }
 
@@ -107,6 +108,8 @@ section.productos img{
 
 .productos img{
     padding: 20px;
+
+    
 }
 
 .productos p{
